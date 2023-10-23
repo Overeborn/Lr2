@@ -27,7 +27,7 @@ int main() { // begin
 
 	cout << '\n';
 	
-	h += N / 3600; // calculàtion of time 
+	h += N / 3600; // calculÃ tion of time 
 	m += N / 60;  
 	N = N % 60;
 	s += N ;
@@ -88,7 +88,7 @@ int main() { // begin
 
 	a = -2 * x; //calculated power of E 
 	b = pow(e, a);//exponentiation E 
-	c = sin(19 * (3.14 / 180)); // calculated sin 19°
+	c = sin(19 * (3.14 / 180)); // calculated sin 19Â°
 	a1 = sin(2 * x + c); //calculated sin 
 	b1 = pow(a1, 3);// exponentiation of expression
 	
@@ -104,7 +104,7 @@ int main() { // begin
 
 	x2 = c2; //appropriation second part 
 
-	c3 = 1 / 3 * tan(x) * log2(3 * 3); // calculated of third part 
+	c3 = 1 / 3 * tan(x) * log2(pow(x,3)); // calculated of third part 
 
 	x3 = c3; //appropriation third part
 
